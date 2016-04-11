@@ -13,7 +13,7 @@ import (
 	"log"
 	"os"
 
-	"gopl.io/ch13/bzip"
+	"octo47/gopl.io/ch13/bzip"
 )
 
 func main() {

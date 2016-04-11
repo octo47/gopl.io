@@ -15,11 +15,11 @@ import (
 )
 
 //!+parseAndCheck
-import "gopl.io/ch7/eval"
+import "octo47/gopl.io/ch7/eval"
 
 //!-parseAndCheck
 
-// -- copied from gopl.io/ch3/surface --
+// -- copied from octo47/gopl.io/ch3/surface --
 
 const (
 	width, height = 600, 320            // canvas size in pixels
@@ -61,7 +61,7 @@ func surface(w io.Writer, f func(x, y float64) float64) {
 	fmt.Fprintln(w, "</svg>")
 }
 
-// -- main code for gopl.io/ch7/surface --
+// -- main code for octo47/gopl.io/ch7/surface --
 
 //!+parseAndCheck
 func parseAndCheck(s string) (eval.Expr, error) {

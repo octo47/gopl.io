@@ -14,7 +14,7 @@ import (
 
 //!+
 
-import "gopl.io/ch12/params"
+import "octo47/gopl.io/ch12/params"
 
 // search implements the /search URL endpoint.
 func search(resp http.ResponseWriter, req *http.Request) {
@@ -42,7 +42,7 @@ func main() {
 
 /*
 //!+output
-$ go build gopl.io/ch12/search
+$ go build octo47/gopl.io/ch12/search
 $ ./search &
 $ ./fetch 'http://localhost:12345/search'
 Search: {Labels:[] MaxResults:10 Exact:false}
